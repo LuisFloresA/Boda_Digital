@@ -309,7 +309,7 @@
 .rsvp-section {
   position: relative;
   padding: 100px 20px;
-  background-image: url('/hero-bg.png');
+  background-image: url('../assets/hero-bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

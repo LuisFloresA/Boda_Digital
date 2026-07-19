@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Clock, Calendar, Gift, HeartHandshake } from 'lucide-react';
+import heroBg from '../assets/hero-bg.png';
 import './InvitationContent.css';
 
 const fadeUp = {
@@ -40,7 +41,7 @@ export default function InvitationContent() {
       
       {/* Hero Section */}
       <section className="hero-section">
-        <div className="hero-bg" style={{ backgroundImage: "url('/hero-bg.png')" }}></div>
+        <div className="hero-bg" style={{ backgroundImage: `url(${heroBg})` }}></div>
         <div className="hero-overlay"></div>
         <motion.div 
           className="hero-content glass-panel"
